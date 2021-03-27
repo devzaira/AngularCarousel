@@ -1,6 +1,8 @@
 .container-main {
   margin: 0 12%;
   position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .box-bg {
@@ -15,14 +17,13 @@
 }
 .box{
   height: 284px;
-  /*width: 216px;*/
   background: linear-gradient(180deg, #FFFFFF 0%, #EBEBEB 100%);
   border-radius: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  box-sizing: border-box;
+  margin-bottom: 5px;
   z-index: 3;
 }
 .model {
@@ -60,15 +61,13 @@
 
 .owl-carousel .owl-stage {
   display: flex;
-  /*background-color: red;*/
-  margin-left: -32px;
+  /*margin-left: -33px;*/
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
 }
 
 .owl-carousel .owl-item {
-  /*margin-top: 150px;*/
-  /*height: 292px;*/
-  /*max-width: 220px;*/
   overflow: hidden;
   box-shadow: 0 1px 1px rgba(0,0,0,0.15),
   0 2px 2px rgba(0,0,0,0.15),
@@ -78,7 +77,6 @@
 }
 
 .owl-carousel .owl-item.active.center {
-  /*height: 556px;*/
   min-width: 450px;
   margin-bottom: 30px;
   /*transition: all 0.1s;*/
@@ -119,7 +117,7 @@
 .owl-theme .owl-nav {
   margin-top: -88px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
 }
 

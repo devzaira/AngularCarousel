@@ -48,29 +48,22 @@ p {
 
 .content {
   background-color: #FFD6D6;
-  height: 1280px;
+  height: 880px;
 }
 .container-main .background {
   background-color: #E7F5F6;
-  width: 100%;
+  height: 880px;
 
-  padding: 0 10px;
   display: flex;
   justify-content: space-between;
 }
 .background div {
   background-color: #D6EAEC;
-  width: 25px;
-  height: 1280px;
-  margin: 0 0 0 112px;
+  width: 2%;
 }
 
-.background div:last-child {
+.background div:first-child, .background div:last-child {
   background-color: #E7F5F6;
-}
-
-.background div:first-child {
-  margin-left: 131px;
 }
 
 .app-home {
