@@ -21,7 +21,7 @@
             <!--
             <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">{{ menu }}</a>
             -->
-            <a class="nav-link" href="#">{{ menu }}</a>
+            <a class="nav-link" routerLink="/{{menu.path}}">{{ menu.menu }}</a>
           </li>
         </ul>
         <div class="dropdown-parent">

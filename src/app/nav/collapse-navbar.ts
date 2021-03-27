@@ -8,7 +8,11 @@ import { environment as env } from '../../environments/environment';
 })
 export class NgbdCollapseNavbar {
   // title = 'mtn-project';
-  menus = ["Store", "Products & Services", "Help & Support"];
+  menus = [
+    {path: 'store-list', menu: 'Store'},
+    {path: 'product-services', menu: 'Products & Services'},
+    {path: 'help-support', menu: 'Help & Support'}
+  ];
   base_storage = env.base_storage;
   public isMenuCollapsed = true;
 }

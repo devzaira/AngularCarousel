@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {AppRoutingModule} from './app-routing.module';
+import {AppRoutingModule, routingComponents} from './app-routing.module';
 
 import {NgbdCollapseNavbar} from './nav/collapse-navbar';
 
@@ -16,14 +16,16 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   declarations: [
     AppComponent,
     HomeComponent,
-    NgbdCollapseNavbar
+    NgbdCollapseNavbar,
+    routingComponents
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
     CarouselModule,
     FontAwesomeModule,
-    NgbModule, AppRoutingModule
+    NgbModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
