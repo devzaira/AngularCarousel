@@ -136,6 +136,12 @@
   /*background-color: green;*/
 }
 
+@media only screen and (max-width: 1980px) {
+  .owl-carousel .owl-stage {
+    margin-left: -32px;
+  }
+}
+
 @media only screen and (max-width: 1680px) {
   .owl-carousel .owl-stage {
     margin-left: -40px;
