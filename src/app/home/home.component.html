@@ -1,0 +1,11 @@
+<owl-carousel-o [options]="customOptions">
+  <ng-template carouselSlide *ngFor="let item of items">
+    <div class="box-bg"></div>
+    <div class="box">
+      <div class="img-placeholder">
+        <img [src]="item.image" alt="mobile pic" class="model">
+      </div>
+      <p class="box-name">{{ item.title }}</p>
+    </div>
+  </ng-template>
+</owl-carousel-o>
